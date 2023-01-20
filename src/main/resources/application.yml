@@ -1,8 +1,8 @@
 cloud:
   aws:
     credentials:
-      access-key: xxxxx    #Put Your Own access-key. Find/Generate it from (Click to your right side UserName navigation bar-> My Security Credentials -> IAM page -> access-key).
-      secret-key: xxxxx    #Put Your Own secret-Key. Find/Generate it from (UserName -> My Security Credentials -> IAM page -> secret-key).
+      access-key: XXXXX    #Put Your Own access-key. Find/Generate it from (Click to your right side UserName navigation bar-> My Security Credentials -> IAM page -> access-key).
+      secret-key: XXXXX    #Put Your Own secret-Key. Find/Generate it from (UserName -> My Security Credentials -> IAM page -> secret-key).
     region:
       static: us-east-1
     stack:

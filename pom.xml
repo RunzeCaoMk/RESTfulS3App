@@ -19,6 +19,7 @@
         <start-class>com.cao.awss3.AWSS3Application</start-class>
         <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
     </properties>
+
     <dependencies>
         <!-- Spring Cloud aws -->
         <dependency>
@@ -42,6 +43,12 @@
             <artifactId>lombok</artifactId>
             <version>1.18.24</version>
             <scope>provided</scope>
+        </dependency>
+        <!-- AWS java sdk -->
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk</artifactId>
+            <version>1.8.7</version>
         </dependency>
     </dependencies>
 
